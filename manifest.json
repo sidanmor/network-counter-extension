@@ -1,0 +1,19 @@
+{
+  "name": "Network Counter Chrome Extension",
+  "version": "1.1",
+  "description": "Network Counter Chrome Extension",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
