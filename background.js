@@ -18,7 +18,7 @@ chrome.webRequest.onBeforeRequest.addListener(function (details) {
         counter++;
         updateIcon(counter);
     },
-    { urls : [] },
+    { urls : [] }, // you can add filters here like: '*://sidanmor.com/*'
     ['requestBody'] // for post request body...
 );
 
